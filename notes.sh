@@ -1,8 +1,14 @@
 #!/bin/sh
 
+# NOTES
+# ==========
+# This script should be added to ~/.zshrc as an alias:
+# alias notes=". /path/to/this/file/notes.sh"
+
+
+
 # Save current working directory so that we can return the user back
 # to where they started
-
 pwd=`pwd`
 
 # Change directory to the location of the notes
